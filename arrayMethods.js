@@ -21,3 +21,32 @@ var nameArray = [];
 var insertName = nameArray.push('Janelle', 'Hirano');
 
 var insertNum = genericNumberArray.push(6, 7, 8, 9, 10);
+
+var popResult = colors.pop();
+
+var scrambledArray = scrambledWords.reverse();
+
+var correctPhone = phoneNumber.reverse();
+
+var nextOrder = orderQueue.shift();
+
+var sortNums = mixedNums.sort();
+
+var sortWords = mixedWords.sort();
+
+var newFruits = fruitCollection.splice(1,3);
+var notFruit = newFruits;
+
+
+// NEED TO FINISH:
+// var gemBox = ['Ruby', 'Diamond', 'Diamond', 'Emerald', 'Moonstone', 'Pizza', 'Sneaker', 'Sapphire', 'Baby', 'Jeans', 'Soda Can', 'Boat'];
+var onlyGems = gemBox.splice(5,7);
+// ['Ruby', 'Diamond', 'Diamond', 'Emerald', 'Moonstone', 'Sapphire', 'Baby', 'Jeans', 'Soda Can', 'Boat'];
+var onlyGems2 = onlyGems.splice(6, 10);
+var newGems = gemBox;
+
+// var upToTen = [1, 2, 9, 10];
+var insertNums = upToTen.splice(2,0, 3, 4, 5, 6, 7, 8);
+
+// var brownOnly = ['brown', 'brownish', 'ad8fy7iuhj23nrsf', 9813, {}, undefined,  'brown'];
+var onlyBrown = brownOnly.splice
